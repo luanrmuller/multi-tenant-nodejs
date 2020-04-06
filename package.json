@@ -1,0 +1,26 @@
+{
+  "name": "multi-tenant-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luanrmuller/multi-tenant-nodejs.git",
+  "author": "luanrmuller <muller@live.in>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch src --exec babel-node src"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "continuation-local-storage": "^3.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "pg": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "nodemon": "^2.0.2"
+  }
+}
